@@ -15,12 +15,12 @@ function rot13(encodedStr){
   // Only change code below this line
 
  for (let i = 0; i < words.length; i++) {
-    const word = words[i];
-    let decoded_word = "";
+    const word = words[i]
+    let decoded_word = ''
     for (let j = 0; j < word.length; j++) {
-      var char = word.charAt(j);
-      var decoded_char = lookup[char];
-      decoded_word += decoded_char;
+      const char = word.charAt(j)
+      const decoded_char = lookup[char]
+      decoded_word += decoded_char
     }
     decodedArr.push(decoded_word)
   }
