@@ -22,7 +22,7 @@ function rot13(encodedStr){
       var decoded_char = lookup[char];
       decoded_word += decoded_char;
     }
-    decodedArr.push(decoded_word);
+    decodedArr.push(decoded_word)
   }
   return decodedArr.join(" "); //return decodedArr
 }
